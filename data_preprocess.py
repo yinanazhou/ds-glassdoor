@@ -39,7 +39,7 @@ df['Spark'] = df['Job Description'].apply(lambda x: 1 if 'spark' in x.lower() el
 # SQL
 df['SQL'] = df['Job Description'].apply(lambda x: 1 if 'sql' in x.lower() else 0)
 # AWS
-df['AWS'] = df['Job Description'].apply(lambda x: 1 if 'aws' in x.lower() else 0)
+df['AWS'] = df['Job Description'].apply(lambda x: 1 if 'aws' in x.lower() or 'amazon' in x.lower() else 0)
 # excel
 df['Excel'] = df['Job Description'].apply(lambda x: 1 if 'excel' in x.lower() else 0)
 # Tableau
@@ -52,6 +52,10 @@ df['Azure'] = df['Job Description'].apply(lambda x: 1 if 'azure' in x.lower() el
 df['French'] = df['Job Description'].apply(lambda x: 1 if 'french' in x.lower() or 'bilingual' in x.lower() else 0)
 
 # experience level
+df['Intern'] = df['Job Title'].apply(lambda x: 1 if 'intern' in x.lower()
+                                                    or 'coop' in x.lower()
+                                                    or 'co-op' in x.lower()
+                                                    else 0)
 df['Junior'] = df['Job Title'].apply(lambda x: 1 if 'junior' in x.lower()
                                                     or 'jr' in x.lower()
                                                     or 'entry' in x.lower()
@@ -63,6 +67,9 @@ df['Senior'] = df['Job Title'].apply(lambda x: 1 if 'senior' in x.lower()
                                                     or 'staff' in x.lower()
                                                     or 'director' in x.lower()
                                                     or 'principle' in x.lower()
+                                                    or 'lead' in x.lower()
+                                                    or 'manager' in x.lower()
+                                                    or 'president' in x.lower()
                                                     else 0)
 
 
