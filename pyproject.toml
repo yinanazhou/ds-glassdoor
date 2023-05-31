@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ds-glassdoor"
+version = "0.1.0"
+description = ""
+authors = ["Yinan Zhou <yinan.a.zhou@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ds_glassdoor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.9.1"
+pandas = "^2.0.2"
+notebook = "^6.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
