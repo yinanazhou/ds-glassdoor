@@ -8,6 +8,10 @@ import parse_info
 
 df = pd.read_csv('glassdoor_jobs.csv')
 
+# get province
+province_map = parse_info.get_province_map(df['Location'])
+df['Province'] = df['Location'].map(province_map)
+
 # salary parsing
 df['hourly'] = df['Salary Estimate'].apply(lambda x: 1 if 'per hour' in x.lower() else 0)
 # print('# hourly: ', df.hourly.sum()) # no hourly rate

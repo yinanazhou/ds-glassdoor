@@ -1,3 +1,25 @@
+import requests
+import os
+
+geocodio_key = os.environ['GEOCODIO_API_KEY']
+def get_province_map(locations):
+    cities = locations.unique()
+    city_to_province = {}
+    for city in cities:
+        url = f'https://api.geocod.io/v1.6/geocode?q={city}&country=CA&api_key={geocodio_key}'
+        response = requests.get(url)
+        data = response.json()
+        
+        if 'results' in data and len(data['results']) > 0:
+            # Extract the province from the API response
+            province = data['results'][0]['address_components']['state']
+            
+            # Add the city and province to the dictionary
+            city_to_province[city] = province
+        else:
+            city_to_province[city] = city
+    return city_to_province
+
 def get_salary_src(src):
     if '(Employer Est.)' in src:
         return 'Employer'
