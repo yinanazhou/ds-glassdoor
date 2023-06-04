@@ -13,6 +13,8 @@ selenium = "^4.9.1"
 pandas = "^2.0.2"
 notebook = "^6.5.4"
 requests = "^2.31.0"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
 
 
 [build-system]
