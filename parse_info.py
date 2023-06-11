@@ -26,7 +26,7 @@ def get_salary_src(src):
     elif '(Glassdoor Est.)' in src:
         return 'Glassdoor'
     else:
-        return 'NA'
+        return 'Not Specified'
 
 
 def get_exp_level(title):
@@ -48,7 +48,7 @@ def get_exp_level(title):
             'president' in title.lower():
         return 'Senior'
     else:
-        return 'NA'
+        return 'Not Specified'
 
 
 def get_work_field(title):
@@ -65,4 +65,4 @@ def get_work_field(title):
     elif 'director' in title.lower():
         return 'Director'
     else:
-        return 'NA'
+        return 'Not Specified'

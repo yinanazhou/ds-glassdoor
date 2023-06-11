@@ -29,7 +29,7 @@ df['max_salary'] = salary_cln.apply(lambda x: int(x.split('-')[1]))
 df['avg_salary'] = (df.min_salary + df.max_salary) / 2
 
 # Company name text only
-df['company_txt'] = df.apply(lambda x: x['Company Name'] if x['Rating'] < 0 else x['Company Name'][:-3], axis=1)
+df['company_txt'] = df['Company Name'].apply(lambda x: x.split('\n')[0])
 
 # age of company
 df['age'] = df.Founded.apply(lambda x: x if x < 1 else 2020 - x)
@@ -39,7 +39,7 @@ df['age'] = df.Founded.apply(lambda x: x if x < 1 else 2020 - x)
 # python
 df['python'] = df['Job Description'].apply(lambda x: 1 if 'python' in x.lower() else 0)
 # r
-df['r'] = df['Job Description'].apply(lambda x: 1 if 'R' in x else 0)
+df['r'] = df['Job Description'].apply(lambda x: 1 if 'R,' in x else 0)
 # spark
 df['spark'] = df['Job Description'].apply(lambda x: 1 if 'spark' in x.lower() else 0)
 # SQL
