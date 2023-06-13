@@ -1,6 +1,6 @@
 # Data Scientist in Canada: Project Overview 
 * Created a tool that estimates data science salaries (asymmetric MAE ~ $ 8K) to help data scientists negotiate their income when they get a job, and built a client facing API using Flask 
-* Scraped over 500 jobs in Canada from glassdoor using python and selenium
+* Scraped over 500 job postings in Canada from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
 * Optimized Linear, Lasso, Ridge, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * ON-GOING: data scientist job description generator
@@ -74,9 +74,8 @@ curl -X GET http://0.0.0.0:8080/predict -H "Content-Type: application/json" -d '
 ```
 
 ## Acknowledgement
-**Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
-**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
-**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
-**YouTube Project Walk-Through:** 
-https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+*	**Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
+*	**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
+*	**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+*	**YouTube Project Walk-Through:** https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 
