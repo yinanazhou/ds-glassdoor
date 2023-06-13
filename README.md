@@ -1,8 +1,8 @@
 # Data Scientist in Canada: Project Overview 
-* Created a tool that estimates data science salaries (asymmetric MAE ~ $ 8K) to help data scientists negotiate their income when they get a job, and built a client facing API using flask 
+* Created a tool that estimates data science salaries (asymmetric MAE ~ $ 8K) to help data scientists negotiate their income when they get a job, and built a client facing API using Flask 
 * Scraped over 500 jobs in Canada from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
+* Optimized Linear, Lasso, Ridge, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * ON-GOING: data scientist job description generator
 
 ## Development
@@ -50,7 +50,7 @@ Percentages are first converted to float values. Mean imputation is implemented 
 
 Four different models are evaluated with a customized asymmetric loss function: **Linear Regression**, **Lasso Regression**, **Ridge Regression**, and **Random Forest**. The objective of the customized loss function is to impose a higher penalty when the prediction falls below the ground truth value. This approach aims to potentially dissuade users from making further requests.
 
-## Model performance
+### Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
 *	**Random Forest** : asymmetric MAE = 7.95
 *	**Lasso Regression**: asymmetric MAE = 10.08
