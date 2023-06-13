@@ -17,6 +17,7 @@ matplotlib = "^3.7.1"
 seaborn = "^0.12.2"
 wordcloud = "^1.9.2"
 nltk = "^3.8.1"
+scikit-learn = "^1.2.2"
 
 
 [build-system]
