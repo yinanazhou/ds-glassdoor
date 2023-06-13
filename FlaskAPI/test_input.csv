@@ -1,0 +1,112 @@
+,90
+Rating,4.4
+Recommend Rating,1.0
+CEO Rating,0.819004329004329
+Career Opportunities,4.1
+Comp & Benefits,4.1
+Culture & Values,4.4
+Senior Management,4.4
+Work/Life Balance,4.4
+age,-1.0
+python,1.0
+r,0.0
+spark,0.0
+sql,1.0
+aws,0.0
+excel,0.0
+tableau,0.0
+powerBI,0.0
+azure,0.0
+french,0.0
+jd_len,5904.0
+Size_-1,0.0
+Size_1 to 50 Employees,1.0
+Size_10000+ Employees,0.0
+Size_1001 to 5000 Employees,0.0
+Size_201 to 500 Employees,0.0
+Size_5001 to 10000 Employees,0.0
+Size_501 to 1000 Employees,0.0
+Size_51 to 200 Employees,0.0
+Size_Unknown,0.0
+Type of ownership_-1,0.0
+Type of ownership_College / University,0.0
+Type of ownership_Company - Private,1.0
+Type of ownership_Company - Public,0.0
+Type of ownership_Subsidiary or Business Segment,0.0
+Type of ownership_Unknown,0.0
+Industry_-1,1.0
+Industry_Accounting & Tax,0.0
+Industry_Advertising & Public Relations,0.0
+"Industry_Airlines, Airports & Air Transportation",0.0
+Industry_Banking & Lending,0.0
+Industry_Biotech & Pharmaceuticals,0.0
+Industry_Business Consulting,0.0
+"Industry_Cable, Internet & Telephone Providers",0.0
+Industry_Colleges & Universities,0.0
+Industry_Computer Hardware Development,0.0
+Industry_Drug & Health Stores,0.0
+Industry_Education Support & Training Services,0.0
+Industry_Enterprise Software & Network Solutions,0.0
+Industry_Farm Support Services,0.0
+Industry_HR Consulting,0.0
+Industry_Healthcare Services & Hospitals,0.0
+Industry_Information Technology Support Services,0.0
+Industry_Insurance Agencies & Brokerages,0.0
+Industry_Insurance Carriers,0.0
+Industry_Internet & Web Services,0.0
+Industry_Investment & Asset Management,0.0
+Industry_Legal,0.0
+Industry_Machinery Manufacturing,0.0
+Industry_Motor Vehicle Dealers,0.0
+Industry_Real Estate,0.0
+Industry_Research & Development,0.0
+Industry_Software Development,0.0
+Industry_Telecommunications Services,0.0
+Industry_Video Game Publishing,0.0
+Industry_Wholesale,0.0
+Sector_-1,1.0
+Sector_Agriculture,0.0
+Sector_Education,0.0
+Sector_Finance,0.0
+Sector_Healthcare,0.0
+Sector_Human Resources & Staffing,0.0
+Sector_Information Technology,0.0
+Sector_Insurance,0.0
+Sector_Legal,0.0
+Sector_Management & Consulting,0.0
+Sector_Manufacturing,0.0
+Sector_Media & Communication,0.0
+Sector_Pharmaceutical & Biotechnology,0.0
+Sector_Real Estate,0.0
+Sector_Retail & Wholesale,0.0
+Sector_Telecommunications,0.0
+Sector_Transportation & Logistics,0.0
+Revenue_$10+ billion (USD),0.0
+Revenue_$100 to $500 million (USD),0.0
+Revenue_$2 to $5 billion (USD),0.0
+Revenue_$25 to $50 million (USD),0.0
+Revenue_$5 to $10 billion (USD),0.0
+Revenue_$5 to $25 million (USD),0.0
+Revenue_$500 million to $1 billion (USD),0.0
+Revenue_-1,0.0
+Revenue_Unknown / Non-Applicable,1.0
+Province_AB,0.0
+Province_BC,0.0
+Province_Canada,0.0
+Province_NB,0.0
+Province_NS,0.0
+Province_ON,1.0
+Province_QC,0.0
+Province_Remote,0.0
+salary_src_Employer,0.0
+salary_src_Glassdoor,1.0
+exp_level_Intern,0.0
+exp_level_Junior,0.0
+exp_level_Not Specified,0.0
+exp_level_Senior,1.0
+field_Data Analyst,0.0
+field_Data Engineer,0.0
+field_Data Scientist,1.0
+field_MLE,0.0
+field_Manager,0.0
+field_Not Specified,0.0
